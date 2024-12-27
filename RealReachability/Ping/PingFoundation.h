@@ -48,6 +48,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#include <sys/socket.h>
 
 #if TARGET_OS_EMBEDDED || TARGET_IPHONE_SIMULATOR
 #import <CFNetwork/CFNetwork.h>
